@@ -1,0 +1,8 @@
+Open PowerShell in your Website\meeplefolk folder, the one containing _config.yml and Gemfile. In File Explorer, you can open that folder, type powershell in the address bar, and press Enter.
+
+Run:
+bundle exec jekyll serve
+
+Once it says Server running, open http://localhost:4000/Meeplefolk/. The capital M matches the baseurl you set for GitHub Pages.
+
+Keep PowerShell open while you preview. For ordinary edits, save the file and refresh the browser. To stop the server, press Ctrl+C.
