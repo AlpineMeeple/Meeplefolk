@@ -43,9 +43,17 @@
                 </details>
               </div>
             {% else %}
-              <a class="page-link" href="{{ item.url | relative_url }}">
-                {{ item.title | escape }}
-              </a>
+              <a class="page-link" href="{{ item.url | relative_url }}"{% if item.new_tab %} target="_blank" rel="noopener"{% endif %}>
+  {% if item.image %}
+    <img
+      class="nav-link-image"
+      src="{{ item.image | relative_url }}"
+      alt="{{ item.title | escape }}"
+    >
+  {% else %}
+    {{ item.title | escape }}
+  {% endif %}
+</a>
             {% endif %}
           {% endfor %}
         </div>

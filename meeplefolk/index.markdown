@@ -26,7 +26,7 @@ We are mainly an adult community, but we are always welcoming to mature children
 
 ## Learn more about...
 
-[Social Board Games]({{ '/sbg' | relative_url }}){: .button .button-green} [Blood on the Clocktower]({{ '/botc' | relative_url }}){: .button} [RPGs]({{ '/rpg' | relative_url }}){: .button .button-blue}
+[Social Board Games]({{ '/sbg' | relative_url }}){: .button .button-green} [Blood on the Clocktower]({{ '/botc' | relative_url }}){: .button} [TTRPGs]({{ '/ttrpg' | relative_url }}){: .button .button-blue}
 
 </section>
 

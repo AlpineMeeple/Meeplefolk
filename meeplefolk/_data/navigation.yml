@@ -8,8 +8,13 @@
       url: /SBG/
     - title: Blood on the Clocktower
       url: /botc/
-    - title: RPG's
-      url: /rpg/
+    - title: TTRPGs
+      url: /ttrpg/
 
 - title: Local Groups
   url: /local-groups/
+
+- title: Aftergame
+  url: https://aftergame.app/groups/meeplefolk
+  image: "/assets/images/Aftergame Logo V3-Dark.png"
+  new_tab: true
