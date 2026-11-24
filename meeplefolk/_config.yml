@@ -52,5 +52,4 @@ plugins:
 #   - vendor/ruby/
 
 header_pages:
-  - index.markdown
   - come_and_play.md

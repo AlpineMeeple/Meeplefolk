@@ -40,7 +40,6 @@ body {
 /* Use Futura Bold for bold Markdown text */
 strong {
   font-weight: 700;
-  colour: 8EC033;
 }
 
 /* Header */
@@ -176,8 +175,8 @@ img[alt="Meeplefolk"] {
 }
 
 .header-logo {
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 60px;
 }
 
 @media screen and (min-width: 601px) {
