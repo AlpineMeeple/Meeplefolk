@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Social Board Games
-permalink: /SBG/
+permalink: /sbg/
 ---
 <div class="sbg-content" markdown="1">
 

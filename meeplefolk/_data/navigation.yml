@@ -5,7 +5,7 @@
   url: /events/
   children:
     - title: Social Board Games
-      url: /SBG/
+      url: /sbg/
     - title: Blood on the Clocktower
       url: /botc/
     - title: TTRPGs
