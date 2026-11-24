@@ -52,4 +52,4 @@ plugins:
 #   - vendor/ruby/
 
 header_pages:
-  - come_and_play.md
+  - local_groups.md

@@ -136,7 +136,7 @@ a:hover {
 
 /* Size the logo inside the black button */
 .button-black img {
-  height: 40px;
+  height: 80px;
   width: auto;
   padding: 0px;
 }
@@ -189,5 +189,170 @@ img[alt="Meeplefolk"] {
 
   .site-header .wrapper::after {
     display: none;
+  }
+}
+
+/* Give the page more room on desktop */
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 1100px;
+  }
+}
+
+/* Stack text and image by default */
+.text-and-image {
+  display: grid;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.text-and-image img {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+/* Put text and image side by side on desktop */
+@media screen and (min-width: 1024px) {
+  .text-and-image {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
+/* Two Column Layout */
+.text-and-text {
+  display: grid;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+/* Put text and text side by side on desktop */
+@media screen and (min-width: 1024px) {
+  .text-and-text {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-items: start;
+  }
+}
+
+.centred-section {
+  text-align: center;
+}
+
+.text-and-text .booking-column {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-column .aftergame-slot {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+.booking-column .aftergame-slot .button {
+  margin: 0;
+}
+
+/* Level-two headings on Social Board Games (GREEN) */
+.sbg-content h2 {
+  color: #8EC033;
+}
+
+/* Level-two headings on Blood on the Clocktower (Pink) */
+.botc-content h2 {
+  color: #CD2870;
+}
+
+
+
+
+
+
+
+
+
+
+
+.events-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #ffffff;
+  font-family: "Futura", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.events-nav a {
+  color: #ffffff;
+}
+
+.events-nav a:hover {
+  color: #8EC033;
+}
+
+.events-menu summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 4px 10px;
+}
+
+.events-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.events-menu-links {
+  background-color: #581186;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.events-menu-links a {
+  display: block;
+  padding: 6px 10px;
+}
+
+@media screen and (min-width: 601px) {
+  .events-nav {
+    position: relative;
+  }
+
+  .events-menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .events-nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 5px 10px;
+  }
+
+  .events-menu[open] {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: 1 / -1;
+    grid-row: 1 / span 2;
+  }
+
+  .events-menu[open] summary {
+    grid-column: 2;
+  }
+
+  .events-menu-links {
+    grid-column: 1 / -1;
+  }
+
+  .events-page-link {
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
   }
 }

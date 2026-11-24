@@ -1,0 +1,15 @@
+- title: About Us
+  url: /about-us/
+
+- title: Events
+  url: /events/
+  children:
+    - title: Social Board Games
+      url: /SBG/
+    - title: Blood on the Clocktower
+      url: /botc/
+    - title: RPG's
+      url: /rpg/
+
+- title: Local Groups
+  url: /local-groups/
