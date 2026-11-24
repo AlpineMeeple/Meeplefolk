@@ -1,0 +1,194 @@
+---
+---
+
+@import "minima";
+
+/* FONTS */
+
+@font-face {
+  font-family: "Futura";
+  src: url("fonts/FuturaCyrillicLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("fonts/FuturaCyrillicBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Luckiest Guy";
+  src: url("fonts/LuckiestGuy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Page colours and font */
+body {
+  background-color: #160422;
+  color: #ffffff;
+  font-family: "Futura", Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}
+/* Use Futura Bold for bold Markdown text */
+strong {
+  font-weight: 700;
+  colour: 8EC033;
+}
+
+/* Header */
+.site-header {
+  background-color: #581186;
+  border-top: 0px solid #000000;
+  border-bottom: 3px solid #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Site name */
+.site-title,
+.site-title:visited {
+  color: #8EC033;
+  font-weight: bold;
+}
+
+/* Headings */
+h1 {
+  color: #8EC033;
+  font-family: "Luckiest Guy", Arial, sans-serif;
+  font-weight: 400;
+  -webkit-text-stroke: 4px #000000;
+  paint-order: stroke fill; 
+}
+
+h2,
+h3 {
+  color: #ffffff;
+  font-family: "Futura", Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* Links */
+a,
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #8EC033;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #000000;
+  border-top: 1px solid #ded3e8;
+}
+
+/* Main action button */
+.button,
+.button:visited {
+  display: inline-block;
+  background-color: #CD2870;
+  color: #000000;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 24px;
+  margin-right: 12px;
+}
+
+
+.button:focus-visible {
+  outline: 3px solid #581186;
+  outline-offset: 4px;
+}
+
+/* Button Colour options */
+.button.button-green,
+.button.button-green:visited {
+  background-color: #8EC033;
+  color: #000000;
+}
+
+.button.button-blue,
+.button.button-blue:visited {
+  background-color: #89DFE8;
+  color: #000000;
+}
+
+.button.button-black,
+.button.button-black:visited {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.button.button-black:hover {
+  color: #8EC033;
+}
+
+/* Size the logo inside the black button */
+.button-black img {
+  height: 40px;
+  width: auto;
+  padding: 0px;
+}
+
+.button:hover,
+.button.button-green:hover,
+.button.button-blue:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Homepage logo */
+img[alt="Meeplefolk"] {
+  display: block;
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 32px;
+}
+
+.site-nav .page-link {
+  color: #ffffff;
+  font-family: "Futura", Arial, sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+  background-color: #581186;
+  border: none;
+  }
+}
+
+.site-nav .menu-icon > svg {
+  fill: #ffffff;
+}
+
+.header-logo {
+  width: 100px;
+  height: auto;
+}
+
+@media screen and (min-width: 601px) {
+  .site-header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .site-header .wrapper::after {
+    display: none;
+  }
+}

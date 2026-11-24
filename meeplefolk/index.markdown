@@ -1,0 +1,43 @@
+---
+layout: page
+title: Home
+---
+# Welcome to Meeplefolk!
+
+We are a board game community in Basingstoke that host regular Board Game Sessions and  Blood on the Clocktower.
+
+## Come join us!
+
+Everyone is welcome, whether you’re new to board games or already have shelves full of them. Pop along and see what we are about!
+
+We are mainly an adult community, but we are always welcoming to mature children who have interest in what we do. We do request that children (below the age of 18) are accompanied by an adult over the age of 18 when attending any of our sessions.
+
+---
+
+## Find our next session
+
+All of our sessions can be found and booked on the Aftergame App below. 
+
+[![Find our next game]({{ '/assets/images/Aftergame Logo V3-Dark.png' | relative_url }})](https://aftergame.app/groups/meeplefolk){: .button .button-black target="_blank" rel="noopener"}
+
+Our usual schedule is as follows;
+
+**- Blood on the Clocktower -**
+Every Tuesday evening, 18:00-22:00. Beginner Friendly Sessions running on the 1st Tuesday of the month.
+
+**- Social Board Games -**
+Every Thursday evening, 18:00-22:00. Newcomers always welcome!
+
+**- Board Games and Clocktower Sunday -**
+On the 4th Sunday of each month, we run a combined Clocktower and Board Game session from 12:00-16:45
+
+---
+
+## Learn more about...
+
+[Social Board Games](https://aftergame.app/groups/meeplefolk){: .button .button-green} [Blood on the Clocktower](https://aftergame.app/groups/meeplefolk){: .button} [RPGs](https://aftergame.app/groups/meeplefolk){: .button .button-blue}
+
+
+----
+
+![Meeplefolk]({{ '/assets/images/meeplefolk_logo_trasp_v4_1.png' | relative_url }})
