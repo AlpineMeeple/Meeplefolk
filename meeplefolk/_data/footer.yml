@@ -1,0 +1,32 @@
+- heading: Contact and socials
+  links:
+    - title: Email us
+      email: true
+    - title: Aftergame
+      url: "https://aftergame.app/groups/meeplefolk"
+      new_tab: true
+    - title: Discord
+      url: "https://discord.gg/gHSVJGqYn4"
+      new_tab: true
+    - title: Facebook
+      url: "https://www.facebook.com/Meeplefolk/"
+      new_tab: true
+    - title: Instagram
+      url: "https://www.instagram.com/meeplefolk"
+      new_tab: true
+
+- heading: Policies
+  links:
+    - title: Refund Policy
+      url: ""
+    - title: Player Code of Conduct
+      url: ""
+    - title: Child Protection Policy
+      url: ""
+
+- heading: Help
+  links:
+    - title: Report a Problem
+      url: ""
+    - title: Other Useful Links
+      url: ""

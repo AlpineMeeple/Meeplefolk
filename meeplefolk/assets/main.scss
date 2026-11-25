@@ -1,6 +1,6 @@
 ---
 ---
-
+$on-palm: 960px;
 @import "minima";
 
 /* FONTS */
@@ -163,7 +163,7 @@ img[alt="Meeplefolk"] {
   font-weight: 700;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .site-nav {
   background-color: #581186;
   border: none;
@@ -179,7 +179,7 @@ img[alt="Meeplefolk"] {
   height: 60px;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 961px) {
   .site-header .wrapper {
     display: flex;
     align-items: center;
@@ -315,7 +315,7 @@ img[alt="Meeplefolk"] {
   padding: 6px 10px;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 961px) {
   .events-nav {
     position: relative;
   }
@@ -328,7 +328,7 @@ img[alt="Meeplefolk"] {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .events-nav {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -360,6 +360,50 @@ img[alt="Meeplefolk"] {
 
 .site-nav .nav-link-image {
   width: auto;
-  height: 35px;
+  height: 30px;
   vertical-align: middle;
+}
+
+.site-nav .nav-link-image[alt="Discord"] {
+  height: 15px;
+  width: auto;
+}
+
+
+
+
+.meeple-footer-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.meeple-footer-grid ul {
+  list-style: none;
+  margin: 0;
+}
+
+.meeple-footer-grid li + li {
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .meeple-footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Keep the desktop menu on one row */
+@media screen and (min-width: 961px) {
+  .site-nav .trigger {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  .site-nav .trigger > .page-link,
+  .site-nav .trigger > .events-nav {
+    margin: 0;
+    white-space: nowrap;
+  }
 }

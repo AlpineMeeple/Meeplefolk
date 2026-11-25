@@ -1,0 +1,36 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="meeple-footer-grid">
+      {% for column in site.data.footer %}
+        <div>
+          <strong>{{ column.heading | escape }}</strong>
+
+          <ul>
+            {% for link in column.links %}
+              {% if link.email and site.email and site.email != empty %}
+                <li>
+                  <a href="mailto:{{ site.email | escape }}">
+                    {{ link.title | escape }}
+                  </a>
+                </li>
+              {% elsif link.url and link.url != empty %}
+                {% assign first_character = link.url | slice: 0, 1 %}
+                {% if first_character == '/' %}
+                  {% assign href = link.url | relative_url %}
+                {% else %}
+                  {% assign href = link.url %}
+                {% endif %}
+
+               <li>
+  <a href="{{ href | escape }}"{% if link.new_tab %} target="_blank" rel="noopener"{% endif %}>
+    {{ link.title | escape }}
+  </a>
+</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</footer>

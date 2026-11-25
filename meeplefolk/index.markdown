@@ -13,8 +13,6 @@ We are a board game community in Basingstoke that host regular Board Game Sessio
 
 Everyone is welcome, whether you’re new to board games or already have shelves full of them. Pop along and see what we are about!
 
-We are mainly an adult community, but we are always welcoming to mature children who have interest in what we do. We do request that children (below the age of 18) are accompanied by an adult over the age of 18 when attending any of our sessions.
-
 </div>
 <img
   src="{{ '/assets/images/Group 2.jpg' | relative_url }}"
