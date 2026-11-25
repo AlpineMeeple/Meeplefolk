@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Booking Cancelation Policy
-permalink: /booking-cancelation-policy/
+title: Booking Cancellation Policy
+permalink: /booking-cancellation-policy/
 ---
 
 <section class="text-and-text">
@@ -12,7 +12,7 @@ permalink: /booking-cancelation-policy/
 </div>
 <div markdown="1">
 
-# Booking Cancelation Policy
+# Booking Cancellation Policy
 
 We are sorry to say that we do not offer refunds for our ticketed events. This is due to the fees that are involved with bookings.
 
