@@ -7,7 +7,7 @@ permalink: /booking-cancelation-policy/
 <section class="text-and-text">
 <div markdown="1">
 
-<iframe width="480px" height="480px" src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__7nXp0VUOEJLRVdYN1VGNkFLT0hOQVRaMElJNVIxQi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<iframe width="640px" height="480px" src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__7nXp0VUOEJLRVdYN1VGNkFLT0hOQVRaMElJNVIxQi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
 </div>
 <div markdown="1">
