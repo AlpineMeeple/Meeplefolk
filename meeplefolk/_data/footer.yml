@@ -17,16 +17,16 @@
 
 - heading: Policies
   links:
-    - title: Refund Policy
-      url: ""
+    - title: Booking Cancelation
+      url: "/booking-cancelation-policy/"
     - title: Player Code of Conduct
       url: ""
     - title: Child Protection Policy
       url: ""
 
-- heading: Help
+- heading: Help & Feedback
   links:
-    - title: Report a Problem
-      url: ""
+    - title: Feedback
+      url: "/feedback/"
     - title: Other Useful Links
       url: ""
