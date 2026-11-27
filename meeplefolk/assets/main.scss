@@ -407,3 +407,90 @@ img[alt="Meeplefolk"] {
     white-space: nowrap;
   }
 }
+
+
+
+
+/* Session cards*/
+.session-cards {
+  display: grid;
+  gap: 16px;
+  margin-block: 24px;
+}
+
+.session-card {
+  background-color: #281436;
+  border-left: 4px solid #8EC033;
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+
+.session-card h2 {
+  font-size: 1.2rem;
+  margin: 0 0 4px;
+}
+
+.session-card p {
+  margin: 0 0 8px;
+}
+
+.session-card p:last-child {
+  margin-bottom: 0;
+}
+
+.session-card--sunday {
+  border-left-color: #89DFE8;
+}
+
+.sbg-content .session-card--sunday h2 {
+  color: #89DFE8;
+}
+
+.meeple-paragraph {
+  display: flow-root;
+}
+
+.meeple-paragraph .text-meeple {
+  float: left;
+  height: 2lh;
+  width: auto;
+  margin-right: 10px;
+}
+
+.meeple-paragraph {
+  display: flow-root;
+}
+
+.meeple-paragraph .text-meeple {
+  height: calc(2lh - 12px);
+  width: auto;
+  margin-block: 6px
+}
+
+.meeple-paragraph .left-meeple {
+  float: left;
+  margin-right: 10px;
+  transform: rotate(-8deg);
+}
+
+.meeple-paragraph .right-meeple {
+  float: right;
+  margin-left: 10px;
+  transform: rotate(8deg);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.meeple-paragraph {
+  text-wrap: balance;
+}
+
+.meeple-paragraph.text-left {
+  text-align: left;
+}
+
+.meeple-paragraph.text-right {
+  text-align: right;
+}
